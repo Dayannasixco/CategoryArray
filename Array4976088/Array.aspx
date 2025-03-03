@@ -14,9 +14,7 @@
             <br />
             <asp:Label ID="Label1" runat="server" Text="Create Category Array"></asp:Label>
             <br />
-            <asp:TextBox ID="strCategoryArray" runat="server"></asp:TextBox>
-            <br />
-            <asp:Button ID="btnCreateArray" runat="server" OnClick="btnCreateArray_Click" Text="Create Array" Width="130px" />
+            <asp:Button ID="btnCreateArray" runat="server" Onclick="BtnCreateArray_Click" Text="Create Array" Width="130px" />
 
         </div>
     </form>

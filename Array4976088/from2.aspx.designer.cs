@@ -11,7 +11,7 @@ namespace Array4976088
 {
 
 
-    public partial class Array
+    public partial class from2
     {
 
         /// <summary>
@@ -33,12 +33,30 @@ namespace Array4976088
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control btnCreateArray.
+        /// Control txtIndex.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCreateArray;
+        protected global::System.Web.UI.WebControls.TextBox txtIndex;
+
+        /// <summary>
+        /// Control btnLookup.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLookup;
+
+        /// <summary>
+        /// Control lblCategory.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCategory;
     }
 }

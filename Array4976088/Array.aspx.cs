@@ -14,7 +14,7 @@ namespace Array4976088
 
         }
 
-        protected void btnCreateArray_Click(object sender, EventArgs e)
+        protected void BtnCreateArray_Click(object sender, EventArgs e)
         {
             //Declare and load the array
             String[] strCategoryArray = new string[5];
@@ -27,9 +27,36 @@ namespace Array4976088
             Session["strCategoryArray"] = strCategoryArray;
 
 
-            Response.Redirect("CategoryUseArraySessionVariables.aspx");
+            Response.Redirect("from2.aspx");
 
 
+
+        }
+
+        protected void btnCreateArray_Click1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCreateArray_Click2(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCreateArray_Click3(object sender, EventArgs e)
+        {
+            //Declare and load the array
+            String[] strCategoryArray = new string[5];
+            strCategoryArray[0] = "Footwear - Men  's' ";
+            strCategoryArray[1] = "Clothing - Men  's' ";
+            strCategoryArray[2] = "Racquets - Women 's' ";
+            strCategoryArray[3] = "Footwear - Women 's' ";
+            strCategoryArray[4] = " Clothing - Women 's' ";
+
+            Session["strCategoryArray"] = strCategoryArray;
+
+
+            Response.Redirect("Variables.aspx");
 
         }
     }

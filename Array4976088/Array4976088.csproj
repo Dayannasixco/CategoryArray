@@ -72,6 +72,7 @@
   <ItemGroup>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Array.aspx" />
+    <Content Include="from2.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="Array.aspx.designer.cs">
       <DependentUpon>Array.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="from2.aspx.cs">
+      <DependentUpon>from2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="from2.aspx.designer.cs">
+      <DependentUpon>from2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
